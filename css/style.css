@@ -1,0 +1,69 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffcb05;
+    color: #2a75bb;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Seções parallax */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.bg1 {
+    background-image: url("../img/pikachu.webp");
+}
+
+.bg2 {
+    background-image: url("../img/charizard.webp");
+}
+
+.bg3 {
+    background-image: url('../img/bulbasauro.png');
+}
+
+/* Conteúdo centralizado */
+.content {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Seções de texto */
+.info {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2a75bb;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
